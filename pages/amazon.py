@@ -14,6 +14,7 @@ class Amazon:
         self.page.select_option(self.dropdown, label="Software")
 
     def search_text_insertion(self, text: str):
+        self.page.select_option(self.dropdown, label="Software")
         self.page.fill(self.search_box, text)
         self.page.click(self.search_button)
 
