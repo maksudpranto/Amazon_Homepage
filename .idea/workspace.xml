@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26269ef2-8cac-4b34-94cf-e0fb09f97f90" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/tests/test_amazon.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_amazon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/amazon.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/amazon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +47,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Rebasing stage&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;stage&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -57,8 +59,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23339.19" />
-        <option value="bundled-python-sdk-0029f7779945-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23339.19" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.26775.22" />
+        <option value="bundled-python-sdk-9f73701ac511-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.26775.22" />
       </set>
     </attachedChunks>
   </component>
@@ -74,6 +76,11 @@
       <workItem from="1745512530044" duration="414000" />
       <workItem from="1745567388267" duration="869000" />
       <workItem from="1745568266237" duration="881000" />
+      <workItem from="1745637897971" duration="101000" />
+      <workItem from="1745638006273" duration="5000" />
+      <workItem from="1745850355784" duration="2940000" />
+      <workItem from="1745853639275" duration="613000" />
+      <workItem from="1745856249238" duration="1947000" />
     </task>
     <servers />
   </component>
