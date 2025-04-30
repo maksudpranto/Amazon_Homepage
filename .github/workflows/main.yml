@@ -1,28 +1,28 @@
-name: Amazon Playwright Tests using Python
+name: Python Tests
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]  # Runs on push to main branch
   pull_request:
-    branches: [ master ]
+    branches: [ main ]  # Runs on PRs targeting main
 
 jobs:
   test:
-    runs-on: macos-latest
-
+    runs-on: ubuntu-latest
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: Set up Python
-      uses: actions/setup-python@v3.1.4
-      with:
-        python-version: '3.1.4'
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
 
-    - name: Install dependencies
-      run: |
-        python -m venv venv
-        source venv/bin/activate
-        pip install -r requirements.txt
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-    - name: Run Tests
-      run: |
-        source /Volumes/EXT - HDD/Deadliest/Automation/PlayWright/Amazon
+      - name: Run tests
+        run: |
+          pytest
